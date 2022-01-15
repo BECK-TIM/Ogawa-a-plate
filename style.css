@@ -37,7 +37,6 @@ li {
     left: 40px;
     width: 90px;
     height: 90px;
-    margin-bttom:3px;
 
 }
 
@@ -67,7 +66,7 @@ li {
     text-align: center;
     line-height: 1.1em;
     margin-left: 50%;
-    margin-top:3px;
+    margin-top:10px;
     transform: translate(-50%);
     font-weight: bolder;
     color: #DA8E00;
