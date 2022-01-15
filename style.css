@@ -58,7 +58,7 @@ li {
     background: -moz-linear-gradient(right, #031492de 60%, #FFF);
     background: -webkit-linear-gradient(right, #031492e0 60%, #FFF);
     background: linear-gradient(to left, #031492e0 60%, #FFF);
-    padding: 16px;
+    padding-bottom: 10px;
 }
 
 .first-title {
