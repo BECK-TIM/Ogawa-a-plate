@@ -420,14 +420,15 @@ li {
         margin-bottom: 10px;
         position: relative;
         left: 2%;
+        margin-bottom:5px;
 
     }
 
     .site-menu {
         margin-top: 70px;
         position: relative;
-        right: 46%;
-        transform: translate(-46%);
+        right: 50%;
+        transform: translate(-50%);
     }
 
     .site-menu li a {
