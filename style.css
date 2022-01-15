@@ -415,7 +415,7 @@ li {
     }
 
     .first-title {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         min-width: 200px;
         margin-bottom: 10px;
         position: relative;
@@ -426,8 +426,8 @@ li {
     .site-menu {
         margin-top: 70px;
         position: relative;
-        right: 50%;
-        transform: translate(-50%);
+        right: 44%;
+        transform: translate(-44%);
     }
 
     .site-menu li a {
@@ -472,10 +472,14 @@ li {
 
     #works .list-menu .top {
         width: 100%;
+        position: relative;
+        left: 80px;
     }
 
     #works .list-menu .bottom {
-        width: 100%
+        width: 100%;
+        position: relative;
+        left: 80px;
     }
 
     #works .list-menu .item {
