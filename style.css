@@ -97,7 +97,7 @@ li {
 
 /* メインビジュアル */
 #mainvisual {
-    background-image: url(img/company.png);
+    background-image: url(https://github.com/BECK-TIM/Ogawa-a-plate/blob/main/company.png?raw=true);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -494,7 +494,10 @@ li {
     /* アクセス */
 
     .gmap-wrap {
+        margin-left: 60px;
         padding: 0;
+        width: 70%;
+
     }
 
     /* フッター */
