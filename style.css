@@ -33,10 +33,10 @@ li {
 
 .site-title {
     position: absolute;
-    top: 0;
+    top: 5px;
     left: 40px;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
 
 }
 
@@ -474,13 +474,13 @@ li {
     #works .list-menu .top {
         width: 100%;
         position: relative;
-        left: 80px;
+        left: 70px;
     }
 
     #works .list-menu .bottom {
         width: 100%;
         position: relative;
-        left: 80px;
+        left: 70px;
     }
 
     #works .list-menu .item {
