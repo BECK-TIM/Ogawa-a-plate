@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="desccription" content="コーポレートサイト">
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>小川板金塗装</title>
+</head>
+
+<body>
+    <header id="header">
+        <h1 class="site-title"><a href="index.html"><img src="img/logo.png" alt="アイコン"></a></h1>
+        <h1 class="first-title">小川板金塗装</h1>
+        <ul class="site-menu">
+            <li><a href="#about">about</li>
+            <li><a href="#works">works</li>
+            <li><a href="#access">access</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </header>
+    <main>
+
+        <!-- ファーストビュー -->
+        <div id="mainvisual">
+            <!-- <img src="img/Company.JPG"> -->
+        </div>
+
+        <!-- ABOUT -->
+
+        <section id="about" class="wrapper">
+            <h2 class="sec-title">about</h2>
+            <div class="line"></div>
+            <p>小川板金塗装は和歌山県御坊市を拠点とし、<br>
+                車の修理や販売・車検等を行ってます。<br>
+                お車に関しての要望や質問など随時受け付けております。<br>
+                お気軽にお問い合わせください。</p>
+        </section>
+
+        <!-- WORKS -->
+
+        <section id="works" class="wrapper">
+            <h2 class="sec-title">works</h2>
+            <div class="line"></div>
+            <ul class="list-menu">
+
+                <div class="top">
+                    <div class="item">
+                        <p class="title">- 作業風景 -</p>
+                        <li><img src="img/Repair.JPG" alt="修理"></li>
+                    </div>
+                    <div class="item">
+                        <p class="title">- 修理現場 -</p>
+                        <li><img src="img/Repair2.JPG" alt="修理"></li>
+                    </div>
+                </div>
+
+
+                <div class="bottom">
+                    <div class="item">
+                        <p class="title">- 塗装作業 -</p>
+                        <li><img src="img/Painting_Room.JPG" alt="塗装ブース"></li>
+                    </div>
+                    <div class="item">
+                        <p class="title">- 事務室 -</p>
+                        <li><img src="img/Office.JPG" alt="事務室"></li>
+                    </div>
+                </div>
+            </ul>
+
+        </section>
+
+        <!-- ACCESS -->
+
+        <section id="accsess" class="wrapper">
+            <h2 class="sec-title">access</h2>
+            <div class="line"></div>
+            <div class="gmap-wrap">
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3825.9467641960223!2d135.1505652513332!3d33.90261170695687!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x637c44f64ca2351e!2z5bCP5bed6YiR6YeR5aGX6KOF!5e0!3m2!1sja!2sjp!4v1641397039701!5m2!1sja!2sjp"
+                    width="900" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            </div>
+           
+        </section>
+
+        <!-- お問い合わせ -->
+
+        <section id="contact" class="wrapper">
+            <h2 class="sec-title">contact</h2>
+            <div class="line"></div>
+            <div class="line-it-button" data-lang="ja" data-type="share-a" data-env="REAL"
+                data-url="https://developers.line.biz/ja/docs/line-social-plugins/install-guide/using-line-share-buttons/"
+                data-color="default" data-size="large" data-count="false" data-ver="3" style="display: none;"></div>
+            <script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async"
+                defer="defer"></script>
+            <div class="Form">
+                <div class="Form-Item">
+                    <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>お名前</p>
+                    <input type="text" class="Form-Item-Input" placeholder="例）山田太郎">
+                </div>
+                <div class="Form-Item">
+                    <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>電話番号</p>
+                    <input type="text" class="Form-Item-Input" placeholder="例）000-0000-0000">
+                </div>
+                <div class="Form-Item">
+                    <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>メールアドレス</p>
+                    <input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com">
+                </div>
+                <div class="Form-Item">
+                    <p class="Form-Item-Label isMsg"><span class="Form-Item-Label-Required">必須</span>お問い合わせ内容</p>
+                    <textarea class="Form-Item-Textarea"></textarea>
+                </div>
+                <input type="submit" class="Form-Btn" value="送信する">
+            </div>
+
+        </section>
+    </main>
+
+    <!-- フッター -->
+
+    <footer id="footer">
+        <p><small>&copy; 2022 小川板金塗装</small></p>
+    </footer>
+
+</body>
+
+</html>
