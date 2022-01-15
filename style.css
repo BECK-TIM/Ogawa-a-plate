@@ -33,10 +33,11 @@ li {
 
 .site-title {
     position: absolute;
-    top: 5px;
+    top: 0;
     left: 40px;
     width: 90px;
     height: 90px;
+    margin-bttom:3px;
 
 }
 
@@ -66,6 +67,7 @@ li {
     text-align: center;
     line-height: 1.1em;
     margin-left: 50%;
+    margin-top:3px;
     transform: translate(-50%);
     font-weight: bolder;
     color: #DA8E00;
