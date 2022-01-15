@@ -426,12 +426,13 @@ li {
     .site-menu {
         margin-top: 70px;
         position: relative;
-        right: 44%;
-        transform: translate(-44%);
+        right: 46%;
+        transform: translate(-46%);
     }
 
     .site-menu li a {
-        font-size: 0.875rem;
+        font-size: 0.9rem;
+        margin-top:10px;
     }
 
     #about p {
