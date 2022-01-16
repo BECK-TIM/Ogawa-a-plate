@@ -34,10 +34,9 @@ li {
 .site-title {
     position: absolute;
     top: 0;
-    left: 40px;
-    width: 90px;
-    height: 90px;
-    margin-bottom:30px;
+    left: 30px;
+    width: 80px;
+    height: 80px;
 
 }
 
@@ -67,7 +66,6 @@ li {
     text-align: center;
     line-height: 1.1em;
     margin-left: 50%;
-    margin-top:25px;
     transform: translate(-50%);
     font-weight: bolder;
     color: #DA8E00;
@@ -83,7 +81,7 @@ li {
 }
 
 .site-menu li {
-    margin-left: 30px;
+    margin-left: 25px;
 }
 
 .site-menu li a {
@@ -422,20 +420,18 @@ li {
         margin-bottom: 10px;
         position: relative;
         left: 2%;
-        margin-bottom:5px;
 
     }
 
     .site-menu {
         margin-top: 70px;
         position: relative;
-        right: 49%;
-        transform: translate(-50%);
+        right: 44%;
+        transform: translate(-44%);
     }
 
     .site-menu li a {
-        font-size: 0.9rem;
-        margin-top:10px;
+        font-size: 0.875rem;
     }
 
     #about p {
@@ -477,13 +473,13 @@ li {
     #works .list-menu .top {
         width: 100%;
         position: relative;
-        left: 70px;
+        left: 80px;
     }
 
     #works .list-menu .bottom {
         width: 100%;
         position: relative;
-        left: 70px;
+        left: 80px;
     }
 
     #works .list-menu .item {
