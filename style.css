@@ -34,9 +34,9 @@ li {
 .site-title {
     position: absolute;
     top: 0;
-    left: 30px;
-    width: 85px;
-    height: 85px;
+    left: 35px;
+    width: 90px;
+    height: 90px;
 
 }
 
@@ -62,11 +62,11 @@ li {
 }
 
 .first-title {
-    font-size: 4em;
+    font-size: 3.5em;
     text-align: center;
     line-height: 1.1em;
     margin-left: 50%;
-    margin-top: 20px;
+    margin-top: 30px;
     transform: translate(-50%);
     font-weight: bolder;
     color: #DA8E00;
@@ -416,7 +416,7 @@ li {
     }
 
     .first-title {
-        font-size: 1.7rem;
+        font-size: 1.8rem;
         min-width: 200px;
         margin-bottom: 10px;
         position: relative;
@@ -427,12 +427,12 @@ li {
     .site-menu {
         margin-top: 70px;
         position: relative;
-        right: 46%;
-        transform: translate(-46%);
+        right: 47%;
+        transform: translate(-47%);
     }
 
     .site-menu li {
-        margin-top: 15px;
+        margin-top: 14px;
     }
 
     .site-menu li a {
