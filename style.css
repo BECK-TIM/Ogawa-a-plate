@@ -37,6 +37,7 @@ li {
     left: 40px;
     width: 90px;
     height: 90px;
+    margin-bottom:30px;
 
 }
 
@@ -66,7 +67,7 @@ li {
     text-align: center;
     line-height: 1.1em;
     margin-left: 50%;
-    margin-top:10px;
+    margin-top:20px;
     transform: translate(-50%);
     font-weight: bolder;
     color: #DA8E00;
@@ -82,7 +83,7 @@ li {
 }
 
 .site-menu li {
-    margin-left: 25px;
+    margin-left: 30px;
 }
 
 .site-menu li a {
