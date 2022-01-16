@@ -62,11 +62,11 @@ li {
 }
 
 .first-title {
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
     line-height: 1.1em;
     margin-left: 50%;
-    margin-top:10px;
+    margin-top: 20px;
     transform: translate(-50%);
     font-weight: bolder;
     color: #DA8E00;
@@ -78,7 +78,7 @@ li {
 .site-menu {
     display: flex;
     justify-content: space-between;
-    margin-right: 40px;
+    margin-right: 50px;
 }
 
 .site-menu li {
@@ -89,7 +89,7 @@ li {
     color: #fff;
     text-transform: uppercase;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.2rem;
+    font-size: 1.35rem;
 }
 
 .site-menu a:hover {
@@ -418,7 +418,7 @@ li {
     .first-title {
         font-size: 1.7rem;
         min-width: 200px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         position: relative;
         left: 2%;
 
@@ -429,6 +429,10 @@ li {
         position: relative;
         right: 46%;
         transform: translate(-46%);
+    }
+
+    .site-menu li {
+        margin-top: 15px;
     }
 
     .site-menu li a {
