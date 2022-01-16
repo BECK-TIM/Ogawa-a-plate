@@ -224,6 +224,11 @@ li {
 
 /* CONTACT */
 
+.line-it-button {
+    position: relative;
+    right: 50%;
+}
+
 #contact {
     position: relative;
     top: 0;
