@@ -224,11 +224,6 @@ li {
 
 /* CONTACT */
 
-.line-it-button {
-    position: relative;
-    right: 50%;
-}
-
 #contact {
     position: relative;
     top: 0;
@@ -417,14 +412,12 @@ li {
     /* ヘッダー */
     #header {
         padding: 0;
-        margin: 0;
 
     }
 
     .first-title {
         font-size: 1.8rem;
         min-width: 200px;
-        margin-bottom: 30px;
         position: relative;
         left: 2%;
 
@@ -435,6 +428,7 @@ li {
         position: relative;
         right: 47%;
         transform: translate(-47%);
+        margin-top: 40px;
     }
 
     .site-menu li a {
