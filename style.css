@@ -35,8 +35,8 @@ li {
     position: absolute;
     top: 0;
     left: 30px;
-    width: 80px;
-    height: 80px;
+    width: 85px;
+    height: 85px;
 
 }
 
@@ -66,6 +66,7 @@ li {
     text-align: center;
     line-height: 1.1em;
     margin-left: 50%;
+    margin-top:10px;
     transform: translate(-50%);
     font-weight: bolder;
     color: #DA8E00;
@@ -417,7 +418,7 @@ li {
     .first-title {
         font-size: 1.7rem;
         min-width: 200px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         position: relative;
         left: 2%;
 
@@ -426,8 +427,8 @@ li {
     .site-menu {
         margin-top: 70px;
         position: relative;
-        right: 44%;
-        transform: translate(-44%);
+        right: 46%;
+        transform: translate(-46%);
     }
 
     .site-menu li a {
