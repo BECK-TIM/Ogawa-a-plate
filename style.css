@@ -45,7 +45,7 @@ li {
     justify-content: center;
     align-items: center;
     font-size: 3rem;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-transform: uppercase;
 }
@@ -66,6 +66,7 @@ li {
     text-align: center;
     line-height: 1.1em;
     margin-left: 50%;
+    margin-top:30px;
     transform: translate(-50%);
     font-weight: bolder;
     color: #DA8E00;
@@ -424,7 +425,7 @@ li {
     }
 
     .site-menu {
-        margin-top: 70px;
+        margin-top: 85px;
         position: relative;
         right: 44%;
         transform: translate(-44%);
