@@ -67,7 +67,7 @@ li {
     text-align: center;
     line-height: 1.1em;
     margin-left: 50%;
-    margin-top:20px;
+    margin-top:25px;
     transform: translate(-50%);
     font-weight: bolder;
     color: #DA8E00;
@@ -429,7 +429,7 @@ li {
     .site-menu {
         margin-top: 70px;
         position: relative;
-        right: 50%;
+        right: 49%;
         transform: translate(-50%);
     }
 
