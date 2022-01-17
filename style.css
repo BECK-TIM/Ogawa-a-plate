@@ -391,7 +391,7 @@ li {
         width: 160px;
         font-size: 16px;
         position: relative;
-        top: 0;
+        top: 50px;
         left: 5px;
     }
 }
@@ -432,15 +432,16 @@ li {
     }
 
     .site-menu {
-        margin-top: 50px;
+        margin-top: 70px;
         position: relative;
         right: 47%;
         transform: translate(-47%);
-        margin-top: 60px;
     }
+
 
     .site-menu li a {
         font-size: 0.875rem;
+
     }
 
     #about p {
