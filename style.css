@@ -366,7 +366,7 @@ li {
 .Form-Btn {
     border-radius: 6px;
     margin-top: 80px;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
@@ -434,8 +434,8 @@ li {
     .site-menu {
         margin-top: 50px;
         position: relative;
-        right: 45%;
-        transform: translate(-45%);
+        right: 47%;
+        transform: translate(-47%);
         margin-top: 60px;
     }
 
@@ -512,6 +512,7 @@ li {
     /* フッター */
     #footer {
         align-items: center;
+        margin: 0 auto;
     }
 
     #footer p {
