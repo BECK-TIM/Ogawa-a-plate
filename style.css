@@ -292,7 +292,7 @@ div#box_lineat img {
     color: #fff;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 400px) {
 
     .site-title {
         position: absolute;
