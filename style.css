@@ -24,7 +24,7 @@ li {
 }
 
 .wrapper {
-    max-width: 960px;
+    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
     font-size: 0.9rem;
@@ -93,6 +93,7 @@ p {
     background: -webkit-linear-gradient(right, #031492e0 60%, #FFF);
     background: linear-gradient(to left, #031492e0 60%, #FFF);
     padding-bottom: 5px;
+
 }
 
 .first-title {
@@ -100,7 +101,8 @@ p {
     text-align: center;
     line-height: 1.1em;
     margin-left: 50%;
-    margin-top: 40px;
+    margin-top: 33px;
+    margin-bottom: 13px;
     transform: translate(-50%);
     font-weight: bolder;
     color: #DA8E00;
@@ -113,6 +115,7 @@ p {
     display: flex;
     justify-content: space-between;
     margin-right: 50px;
+    margin-top: 10px;
 }
 
 .site-menu li {
@@ -177,8 +180,12 @@ p {
 #works {
     margin-top: 100px;
     margin-bottom: 80px;
+    overflow: hidden;
 }
 
+#works .wrapper {
+    padding: 0;
+}
 
 
 .title {
@@ -220,18 +227,22 @@ p {
     justify-content: space-between;
     align-items: center;
     margin-right: 60px;
-    padding: 0 10%;
+    padding: 0;
     margin-top: 80px;
 }
 
 #works .list-menu .item {
-    margin-left: 70px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     width: 450px;
     position: relative;
-    top: 0;
-    right: 33%;
+    left: 20%;
+}
 
+#works .list-menu .item2 {
+    margin-bottom: 60px;
+    width: 450px;
+    position: relative;
+    right: 10%;
 }
 
 #works .top img {
@@ -265,170 +276,11 @@ p {
     margin-bottom: 100px;
 }
 
-
-.Form {
-    margin-top: 80px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 960px;
+div#box_lineat img {
+    width: 200px;
+    height: 200px;
 }
 
-@media screen and (max-width: 600px) {
-    .Form {
-        margin-top: 40px;
-    }
-}
-
-.Form-Item {
-
-    padding-top: 24px;
-    padding-bottom: 24px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-
-@media screen and (max-width: 600px) {
-    .Form-Item {
-        padding-left: 0;
-        padding-right: 0;
-        padding-top: 16px;
-        padding-bottom: 16px;
-        flex-wrap: wrap;
-    }
-}
-
-.Form-Item-Label {
-    width: 100%;
-    max-width: 248px;
-    letter-spacing: 0.05em;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-@media screen and (max-width: 600px) {
-    .Form-Item-Label {
-        max-width: inherit;
-        display: flex;
-        align-items: center;
-        font-size: 15px;
-    }
-}
-
-.Form-Item-Label.isMsg {
-    margin-top: 8px;
-    margin-bottom: auto;
-}
-
-@media screen and (max-width: 600px) {
-    .Form-Item-Label.isMsg {
-        margin-top: 0;
-    }
-}
-
-.Form-Item-Label-Required {
-    border-radius: 6px;
-    margin-right: 8px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    width: 48px;
-    display: inline-block;
-    text-align: center;
-    background: #055de1;
-    color: #fff;
-    font-size: 14px;
-}
-
-@media screen and (max-width: 600px) {
-    .Form-Item-Label-Required {
-        border-radius: 4px;
-        padding-top: 4px;
-        padding-bottom: 4px;
-        width: 32px;
-        font-size: 10px;
-    }
-}
-
-.Form-Item-Input {
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    margin-left: 40px;
-    padding-left: 1em;
-    padding-right: 1em;
-    height: 48px;
-    flex: 1;
-    width: 100%;
-    max-width: 410px;
-    background: #eaedf2;
-    font-size: 18px;
-}
-
-@media screen and (max-width: 600px) {
-    .Form-Item-Input {
-        margin-left: 0;
-        margin-top: 18px;
-        height: 40px;
-        flex: inherit;
-        font-size: 15px;
-    }
-}
-
-.Form-Item-Textarea {
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    margin-left: 40px;
-    padding-left: 1em;
-    padding-right: 1em;
-    height: 216px;
-    flex: 1;
-    width: 100%;
-    max-width: 410px;
-    background: #eaedf2;
-    font-size: 18px;
-}
-
-@media screen and (max-width: 600px) {
-    .Form-Item-Textarea {
-        margin-top: 18px;
-        margin-left: 0;
-        height: 200px;
-        flex: inherit;
-        font-size: 15px;
-    }
-}
-
-.Form-Btn {
-    border-radius: 6px;
-    margin-top: 80px;
-    margin-bottom: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 280px;
-    display: block;
-    letter-spacing: 0.05em;
-    background: #0358d8;
-    color: #fff;
-    font-weight: bold;
-    font-size: 20px;
-    position: relative;
-    top: 150px;
-    right: 330px;
-}
-
-@media screen and (max-width: 600px) {
-    .Form-Btn {
-        margin-top: 44px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        width: 160px;
-        font-size: 16px;
-        position: relative;
-        top: 50px;
-        left: 5px;
-    }
-}
 
 /* フッター */
 #footer {
@@ -446,14 +298,14 @@ p {
         position: absolute;
         top: 10px;
         left: 10px;
-        width: 70px;
+        width: 19%;
     }
 
 
     /* ヘッダー */
     #header {
         padding: 0;
-
+        margin: 0;
     }
 
     .first-title {
@@ -468,8 +320,8 @@ p {
     .site-menu {
         margin-top: 70px;
         position: relative;
-        right: 47%;
-        transform: translate(-47%);
+        right: 50%;
+        transform: translate(-50%);
     }
 
 
@@ -494,6 +346,7 @@ p {
         padding: 0;
     }
 
+
     #works .list-menu li img {
         width: 75%;
         height: 75%;
@@ -507,6 +360,10 @@ p {
         right: 17px;
     }
 
+    #works {
+        overflow: hidden;
+    }
+
     #works .title {
         width: 310px;
         margin-left: 50px;
@@ -517,19 +374,28 @@ p {
     #works .list-menu .top {
         width: 100%;
         position: relative;
-        left: 80px;
+        right: 30%;
+        padding: 0;
     }
 
     #works .list-menu .bottom {
         width: 100%;
         position: relative;
-        left: 80px;
+        left: 0;
+        padding: 0;
     }
 
     #works .list-menu .item {
         text-align: center;
         margin-bottom: 60px;
     }
+
+    #works .list-menu .item2 {
+        text-align: center;
+        margin-bottom: 60px;
+
+    }
+
 
     #works .list-menu .title {
         text-align: center;
@@ -541,7 +407,6 @@ p {
         margin-left: 60px;
         padding: 0;
         width: 70%;
-
     }
 
     /* フッター */
@@ -553,6 +418,7 @@ p {
     #footer p {
         margin-left: 35px
     }
+
 
 
 }
