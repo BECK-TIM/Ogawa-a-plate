@@ -23,6 +23,10 @@ li {
     list-style: none;
 }
 
+#wrapper {
+    overflow: hidden;
+}
+
 .wrapper {
     max-width: 1200px;
     width: 100%;
@@ -115,7 +119,7 @@ p {
     display: flex;
     justify-content: space-between;
     margin-right: 50px;
-    margin-top: 10px;
+    margin-top: 16px;
 }
 
 .site-menu li {
@@ -296,9 +300,18 @@ div#box_lineat img {
 
     .site-title {
         position: absolute;
-        top: 10px;
+        top: 8px;
         left: 10px;
-        width: 19%;
+        width: 17%;
+    }
+
+    .sec-title {
+        margin-right: 20px;
+    }
+
+    .line {
+        position: relative;
+        left: 48%;
     }
 
 
@@ -320,7 +333,7 @@ div#box_lineat img {
     .site-menu {
         margin-top: 70px;
         position: relative;
-        right: 58%;
+        right: 50%;
         transform: translate(-50%);
     }
 
@@ -334,6 +347,7 @@ div#box_lineat img {
         font-size: 0.8rem;
         font-weight: bold;
         margin-top: 70px;
+        margin-right: 16px;
     }
 
     /* WORKS */
@@ -360,10 +374,6 @@ div#box_lineat img {
         right: 17px;
     }
 
-    #works {
-        overflow: hidden;
-    }
-
     #works .title {
         width: 310px;
         margin-left: 50px;
@@ -374,14 +384,14 @@ div#box_lineat img {
     #works .list-menu .top {
         width: 100%;
         position: relative;
-        right: 40%;
+        right: 33.5%;
         padding: 0;
     }
 
     #works .list-menu .bottom {
         width: 100%;
         position: relative;
-        left: -30px;
+        left: -10px;
         padding: 0;
     }
 
@@ -404,7 +414,7 @@ div#box_lineat img {
     /* アクセス */
 
     .gmap-wrap {
-        margin-left: 60px;
+        margin-left: 50px;
         padding: 0;
         width: 70%;
     }
@@ -416,7 +426,7 @@ div#box_lineat img {
     }
 
     #footer p {
-        margin-left: 35px
+        margin-left: 20px
     }
 
 
