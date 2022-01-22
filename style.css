@@ -292,7 +292,7 @@ div#box_lineat img {
     color: #fff;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 340px) {
 
     .site-title {
         position: absolute;
@@ -320,7 +320,7 @@ div#box_lineat img {
     .site-menu {
         margin-top: 70px;
         position: relative;
-        right: 50%;
+        right: 58%;
         transform: translate(-50%);
     }
 
@@ -331,7 +331,7 @@ div#box_lineat img {
     }
 
     #about p {
-        font-size: 0.875rem;
+        font-size: 0.8rem;
         font-weight: bold;
         margin-top: 70px;
     }
@@ -374,14 +374,14 @@ div#box_lineat img {
     #works .list-menu .top {
         width: 100%;
         position: relative;
-        right: 30%;
+        right: 40%;
         padding: 0;
     }
 
     #works .list-menu .bottom {
         width: 100%;
         position: relative;
-        left: 0;
+        left: -30px;
         padding: 0;
     }
 
