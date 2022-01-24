@@ -330,7 +330,7 @@ div#box_lineat img {
         margin-bottom: 0;
     }
 
-    .site-menu {
+    /* .site-menu {
         margin-top: 50px;
         position: relative;
         right: 60%;
@@ -341,7 +341,7 @@ div#box_lineat img {
     .site-menu li a {
         font-size: 0.875rem;
 
-    }
+    } */
 
     #about p {
         font-size: 0.8rem;
