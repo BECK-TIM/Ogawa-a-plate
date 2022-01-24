@@ -331,10 +331,10 @@ div#box_lineat img {
     }
 
     .site-menu {
-        margin-top: 70px;
+        margin-top: 50px;
         position: relative;
-        right: 51%;
-        transform: translate(-51%);
+        right: 60%;
+        transform: translate(-60%);
     }
 
 
