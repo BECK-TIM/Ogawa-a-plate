@@ -298,6 +298,10 @@ div#box_lineat img {
 
 @media (max-width: 600px) {
 
+    #wrapper {
+        overflow: hidden;
+    }
+
     .site-title {
         position: absolute;
         top: 7px;
