@@ -296,7 +296,7 @@ div#box_lineat img {
     color: #fff;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
 
     .site-title {
         position: absolute;
@@ -333,8 +333,8 @@ div#box_lineat img {
     .site-menu {
         margin-top: 70px;
         position: relative;
-        right: 50%;
-        transform: translate(-50%);
+        right: 51%;
+        transform: translate(-51%);
     }
 
 
