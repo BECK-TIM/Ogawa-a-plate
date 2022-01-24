@@ -300,7 +300,7 @@ div#box_lineat img {
 
     .site-title {
         position: absolute;
-        top: 8px;
+        top: 7px;
         left: 10px;
         width: 17%;
     }
@@ -331,17 +331,17 @@ div#box_lineat img {
     }
 
     .site-menu {
-        margin-top: 50px;
+        margin-top: 65px;
         position: relative;
-        right: 60%;
-        transform: translate(-60%);
+        right: 55%;
+        transform: translate(-55%);
     }
 
 
     .site-menu li a {
         font-size: 0.875rem;
 
-    } 
+    }
 
     #about p {
         font-size: 0.8rem;
@@ -384,14 +384,14 @@ div#box_lineat img {
     #works .list-menu .top {
         width: 100%;
         position: relative;
-        right: 33.5%;
+        right: 35%;
         padding: 0;
     }
 
     #works .list-menu .bottom {
         width: 100%;
         position: relative;
-        left: -10px;
+        left: -12px;
         padding: 0;
     }
 
