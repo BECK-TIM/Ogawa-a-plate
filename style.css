@@ -147,8 +147,7 @@ p {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 50%;
-    padding-top: 58%;
+    padding-top: 57%;
     margin-bottom: 50px;
 }
 
@@ -325,8 +324,11 @@ div#box_lineat img {
 
     /* ヘッダー */
     #header {
-        padding: 0;
-        margin: 0;
+        padding-bottom: 0;
+    }
+
+    #mainvisual {
+        margin-top: 40%;
     }
 
     .first-title {
@@ -342,7 +344,9 @@ div#box_lineat img {
         margin-top: 71px;
         position: relative;
         right: 55%;
+        top: 5px;
         transform: translate(-55%);
+
     }
 
 
@@ -370,8 +374,8 @@ div#box_lineat img {
 
 
     #works .list-menu li img {
-        width: 75%;
-        height: 75%;
+        width: 70%;
+        height: 70%;
     }
 
     .title:before {
