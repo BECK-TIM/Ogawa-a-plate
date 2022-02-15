@@ -7,9 +7,11 @@ html {
 
 body {
     color: #24292e;
-    background-color: #fff;
+    background-color: #fffaf0;
     font-size: 0.925rem;
+    margin: 0 auto;
 }
+
 
 a {
     text-decoration: none;
@@ -24,24 +26,44 @@ li {
     list-style: none;
 }
 
-#wrapper {
-    overflow: hidden;
+.sp {
+    display: none;
 }
 
-.wrapper {
-    max-width: 1200px;
-    width: 100%;
+.origin-wrapper {
+    overflow: hidden;
+    max-width: 100%;
     margin: 0 auto;
-    font-size: 0.9rem;
-    padding: 0 16px;
+
+}
+
+/* 下から */
+
+.fadeUp {
+    animation-name: fadeUpAnime;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes fadeUpAnime {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .site-title {
     position: absolute;
-    top: -7px;
+    top: 6px;
     left: 35px;
-    width: 93px;
-    height: 93px;
+    width: 100px;
+    height: auto;
 
 }
 
@@ -98,9 +120,7 @@ p {
     background: -webkit-linear-gradient(right, #031492e0 60%, #FFF);
     background: linear-gradient(to left, #031492e0 60%, #FFF);
     padding-bottom: 5px;
-    position: fixed;
     width: 100%;
-    z-index: 1;
 
 }
 
@@ -108,9 +128,11 @@ p {
     font-size: 3.5em;
     text-align: center;
     line-height: 1.1em;
-    margin-left: 50%;
-    margin-top: 33px;
-    margin-bottom: 13px;
+    letter-spacing: 0.15rem;
+    margin: 30px auto;
+    position: relative;
+    left: 25%;
+    top: 5px;
     transform: translate(-50%);
     font-weight: bolder;
     color: #DA8E00;
@@ -127,7 +149,7 @@ p {
 }
 
 .site-menu li {
-    margin-left: 25px;
+    margin-left: 40px;
     margin-top: 7px;
 }
 
@@ -147,17 +169,14 @@ p {
     background-image: url(https://github.com/BECK-TIM/Ogawa-a-plate/blob/main/company.png?raw=true);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
     width: 100%;
-    padding-top: 57%;
+    height: auto;
+    max-width: 100%;
     margin-bottom: 50px;
 }
 
-
-#mainvisual img::before {
-    content: '';
-    display: block;
-    padding-top: 50%;
-}
 
 /* ABOUT */
 #about {
@@ -189,10 +208,6 @@ p {
     margin-top: 100px;
     margin-bottom: 80px;
     overflow: hidden;
-}
-
-#works .wrapper {
-    padding: 0;
 }
 
 
@@ -230,11 +245,19 @@ p {
     right: 7px;
 }
 
+.top {
+    margin: 0 auto;
+}
+
+.bottom {
+    margin: 0 auto;
+}
+
 #works .list-menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    margin-right: 60px;
+    margin: 80px 80px 0 80px;
     padding: 0;
     margin-top: 80px;
 }
@@ -250,7 +273,7 @@ p {
     margin-bottom: 60px;
     width: 450px;
     position: relative;
-    right: 10%;
+    right: 20%;
 }
 
 #works .top img {
@@ -276,17 +299,13 @@ p {
 
 
 /* CONTACT */
-
-#contact {
-    position: relative;
-    top: 0;
-    left: 0;
-    margin-bottom: 100px;
-}
-
-div#box_lineat img {
-    width: 200px;
-    height: 200px;
+.fab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20em;
+    color: #06c755;
+    margin: 40px auto;
 }
 
 
@@ -294,16 +313,105 @@ div#box_lineat img {
 #footer {
     display: flex;
     justify-content: center;
-    background-color: rgb(9, 50, 213);
+    background-color: #0f40d1;
     opacity: 0.8;
     margin: 0 auto;
     color: #fff;
 }
 
+
 @media (max-width: 600px) {
 
-    #wrapper {
-        overflow: hidden;
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* ハンバーガーメニュー */
+
+    .site-menu {
+        display: none;
+    }
+
+    .openbtn {
+        background-color: transparent;
+        position: absolute;
+        cursor: pointer;
+        height: 60px;
+        width: 60px;
+        margin-right: 25px;
+        left: 60%;
+
+    }
+
+    .icon span {
+        position: absolute;
+        left: 15px;
+        width: 30px;
+        height: 4px;
+        background-color: white;
+        border-radius: 8px;
+        transition: ease 0.75s;
+    }
+
+    .icon span:nth-of-type(1) {
+        top: 5px;
+    }
+
+    .icon span:nth-of-type(2) {
+        top: 17px;
+    }
+
+    .icon span:nth-of-type(3) {
+        bottom: 27px;
+    }
+
+    .close span:nth-of-type(1) {
+        transform: rotate(45deg);
+        top: 18px;
+    }
+
+    .close span:nth-of-type(2) {
+        opacity: 0;
+    }
+
+    .close span:nth-of-type(3) {
+        transform: rotate(-45deg);
+        top: 18px;
+    }
+
+    .sp {
+        top: 120px;
+        left: 0;
+        position: relative;
+        z-index: 10;
+        width: 100%;
+        background-color: rgba(79, 70, 60, 0.9);
+        padding: 10px;
+    }
+
+    nav {
+        margin: 0 0 0 auto;
+
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    a {
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+        color: #fff;
+    }
+
+
+    #mainvisual {
+        margin: 0;
     }
 
     .site-title {
@@ -314,12 +422,14 @@ div#box_lineat img {
     }
 
     .sec-title {
-        margin-right: 20px;
+        margin: 0 20px 0 20px;
+        align-items: center;
     }
 
     .line {
         position: relative;
-        left: 48%;
+        top: 10px;
+        left: 50%;
     }
 
 
@@ -328,17 +438,19 @@ div#box_lineat img {
         padding-bottom: 0;
     }
 
-    #mainvisual {
-        margin-top: 40%;
-    }
-
     .first-title {
         font-size: 1.9rem;
         min-width: 200px;
         position: relative;
-        top: -20px;
-        left: 2%;
+        top: -12px;
+        left: 36%;
         margin-bottom: 0;
+        letter-spacing: 0;
+    }
+
+    .site-title img {
+        position: relative;
+        bottom: 6px;
     }
 
     .site-menu {
@@ -359,24 +471,28 @@ div#box_lineat img {
     #about p {
         font-size: 0.8rem;
         font-weight: bold;
-        margin-top: 70px;
-        margin-right: 16px;
+        margin: 70px 17px 5px 17px;
+        text-align: center;
     }
 
     /* WORKS */
     #works {
-        margin-bottom: 80px;
+        margin: 60px auto 30px;
     }
 
     #works .list-menu {
         flex-direction: column;
         padding: 0;
+        margin-top: 70px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
     #works .list-menu li img {
         width: 70%;
         height: 70%;
+
     }
 
     .title:before {
@@ -397,15 +513,13 @@ div#box_lineat img {
     #works .list-menu .top {
         width: 100%;
         position: relative;
-        right: 35%;
-        padding: 0;
+        right: 30%;
     }
 
     #works .list-menu .bottom {
         width: 100%;
         position: relative;
-        left: -12px;
-        padding: 0;
+        left: 10%;
     }
 
     #works .list-menu .item {
@@ -432,6 +546,12 @@ div#box_lineat img {
         width: 70%;
     }
 
+    /* コンタクト */
+    .fab {
+        font-size: 12em;
+    }
+
+
     /* フッター */
     #footer {
         align-items: center;
@@ -439,7 +559,7 @@ div#box_lineat img {
     }
 
     #footer p {
-        margin-left: 20px
+        margin: 0 auto;
     }
 
 
