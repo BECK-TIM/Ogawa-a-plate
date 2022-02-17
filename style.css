@@ -530,6 +530,10 @@ p {
         margin-top: 50px;
     }
 
+    .slider02 {
+        padding-left: 0;
+    }
+
     .zoomtext {
         /*テキストの基点となる位置を定義*/
         position: relative;
