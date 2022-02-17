@@ -451,10 +451,9 @@ p {
         text-transform: uppercase;
     }
 
-    .site-title {
+    .site-title  img{
         position: absolute;
-        top: 6px;
-        left: 10px;
+        bottom: 25px;
         width: 17%;
     }
 
