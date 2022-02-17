@@ -171,15 +171,15 @@ p {
 /*　背景画像設定　*/
 
 .slider-item01 {
-    background: url(https://github.com/BECK-TIM/Ogawa-a-plate-paint/blob/main/img/Company.jpg);
+    background: url(https://github.com/BECK-TIM/Ogawa-a-plate-paint/blob/main/img/Company.jpg?raw=true);
 }
 
 .slider-item02 {
-    background: url(https://github.com/BECK-TIM/Ogawa-a-plate-paint/blob/main/img/Company02.jpg);
+    background: url(https://github.com/BECK-TIM/Ogawa-a-plate-paint/blob/main/img/Company02.jpg?raw=true);
 }
 
 .slider-item03 {
-    background: url(https://github.com/BECK-TIM/Ogawa-a-plate-paint/blob/main/img/Company03.jpg);
+    background: url(https://github.com/BECK-TIM/Ogawa-a-plate-paint/blob/main/img/Company03.jpg?raw=true);
 }
 
 .slider-item {
@@ -451,8 +451,9 @@ p {
         text-transform: uppercase;
     }
 
-    .site-title  img{
+    .site-title  {
         position: absolute;
+        top: 10px;
         bottom: 25px;
         width: 17%;
     }
