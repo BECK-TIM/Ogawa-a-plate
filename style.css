@@ -428,7 +428,7 @@ p {
     .sp {
         position: absolute;
         top: 92px;
-        right: -10%;
+        right: -11%;
         width: 100%;
         height: auto;
         padding-top: 50px;
@@ -436,6 +436,8 @@ p {
         background-color: rgba(15, 112, 216, 0.618);
         flex-direction: column;
         z-index: 2;
+        margin: 12px auto;
+        padding-right: 10px;
 
     }
 
