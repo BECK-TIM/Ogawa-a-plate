@@ -357,6 +357,11 @@ p {
         height: auto;
     }
 
+    .slider {
+        padding-left: 0;
+        margin: 0 auto;
+    }
+
     .slider-item {
         width: 100%;
         /*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
@@ -453,8 +458,8 @@ p {
 
     .site-title  {
         position: absolute;
-        top: 10px;
-        bottom: 25px;
+        top: -15px;
+        left: 10px;
         width: 17%;
     }
 
@@ -528,7 +533,7 @@ p {
 
     .zoomtext span.mask {
         position: relative;
-        transition: .2s ease-in-out;
+        transition: .4s ease-in-out;
         /*移り変わる速さを変更したい場合はこの数値を変更*/
         display: block;
         /*画像をくくるspanタグをブロック要素にする*/
@@ -554,7 +559,7 @@ p {
     .zoomtext img {
         transform: scale(1);
         filter: blur(0);
-        transition: .3s ease-in-out;
+        transition: .4s ease-in-out;
         /*移り変わる速さを変更したい場合はこの数値を変更*/
     }
 
