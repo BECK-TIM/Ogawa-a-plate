@@ -311,7 +311,7 @@ p {
     /*テキストの色を変えたい場合はここを修正*/
     line-height: 1.5;
     /*行の高さを1.5にする*/
-    font-size: 2.5em;
+    font-size: 2.1em;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -350,6 +350,7 @@ p {
     opacity: 0.8;
     color: #000;
 }
+
 
 /* SP */
 @media (max-width:480px) {
@@ -594,7 +595,7 @@ p {
         /*テキストの色を変えたい場合はここを修正*/
         line-height: 1.5;
         /*行の高さを1.5にする*/
-        font-size: 1.5em;
+        font-size: 1.3em;
         font-family: 'Times New Roman', Times, serif;
     }
 
@@ -626,6 +627,8 @@ p {
     #footer p {
         margin: 0 auto;
     }
+
+    
 
 
 
