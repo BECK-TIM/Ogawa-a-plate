@@ -330,14 +330,15 @@ p {
     margin-bottom: 80px;
 }
 
+.LINE {
+    margin: 70px;
+}
 
-
-
-#contact img {
+.fab {
     position: relative;
-    bottom: 0;
-    left: 32.5%;
-    margin: 180px 100px;
+    left: 44.5%;
+    color: #0f0;
+    font-size: 220px;
 }
 
 /* フッター */
@@ -351,7 +352,6 @@ p {
 
 /* SP */
 @media (max-width:480px) {
-
 
     img {
         max-width: 100%;
@@ -610,12 +610,11 @@ p {
     }
 
     /* コンタクト */
-    #contact img {
-        margin: 70px;
+
+    .fab {
+        font-size: 150px;
         position: relative;
-        left: -10px;
-        width: 260px;
-        height: auto;
+        left: 55px;
     }
 
     /* フッター */
