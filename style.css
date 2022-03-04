@@ -332,16 +332,13 @@ p {
 
 
 
-/* CONTACT */
-.fab {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20em;
-    color: #06c755;
-    margin: 80px auto;
-}
 
+#contact img {
+    position: relative;
+    bottom: 0;
+    left: 32.5%;
+    margin: 180px 100px;
+}
 
 /* フッター */
 #footer {
@@ -428,10 +425,10 @@ p {
 
     .sp {
         position: absolute;
-        top: 92px;
+        top: 83px;
         right: -12%;
         width: 100%;
-        height: auto;
+        height: 34%;
         padding-top: 50px;
         transform: translate(-10%, -10%);
         background-color: rgba(15, 112, 216, 0.618);
@@ -613,10 +610,13 @@ p {
     }
 
     /* コンタクト */
-    .fab {
-        font-size: 12em;
+    #contact img {
+        margin: 70px;
+        position: relative;
+        left: -10px;
+        width: 260px;
+        height: auto;
     }
-
 
     /* フッター */
     #footer {
@@ -628,7 +628,7 @@ p {
         margin: 0 auto;
     }
 
-    
+
 
 
 
