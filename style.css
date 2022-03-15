@@ -497,7 +497,7 @@ p {
 
     .site-title img {
         position: relative;
-        bottom: 6px;
+        bottom: -13px;
     }
 
     .site-menu {
@@ -610,6 +610,11 @@ p {
     }
 
     /* コンタクト */
+
+    .LINE a {
+        position: relative;
+        top: 30%;
+    }
 
     .fab {
         font-size: 150px;
