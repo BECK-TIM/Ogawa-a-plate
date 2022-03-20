@@ -434,7 +434,7 @@ p {
         background-color: rgba(15, 112, 216, 0.618);
         flex-direction: column;
         z-index: 2;
-        margin: 12px auto;
+        margin: 0 auto;
         padding-right: 10px;
 
     }
